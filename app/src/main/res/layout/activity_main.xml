@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<ImageView
+        android:id="@+id/imgViewAlpha"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/red_waring" />-->
+
+    <ImageView
+        android:id="@+id/imgView03"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imgView02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-35dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/grab_logo02" />
+
+    <ImageView
+        android:id="@+id/imgView02"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/grab_logo" />
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imgTranslate"
+        android:src="@drawable/grabbike_ic"
+        android:layout_below="@id/imgView03"/>
+
+</RelativeLayout>
