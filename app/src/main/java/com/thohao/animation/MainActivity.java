@@ -136,19 +136,15 @@ public class MainActivity extends AppCompatActivity {
         animationTranslate.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
-
             }
 
             @Override
             public void onAnimationEnd(Animation animation) {
                 imgTranslate.setVisibility(View.GONE);
-
             }
 
             @Override
             public void onAnimationRepeat(Animation animation) {
-
-
             }
         });
     }
